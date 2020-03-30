@@ -27,6 +27,10 @@ button:focus {
     flex-wrap: wrap;
 }
 
+.green {
+    background: green;
+}
+
 .hidden {
     opacity: 0;
     z-index: 0;
@@ -151,7 +155,6 @@ main {
     margin-bottom: 10px;
     width: 90%;
     border-radius: 5px;
-    background: green;
     font-size: 120%;
     font-weight: 700;
 }
@@ -200,4 +203,14 @@ main {
     margin: 25px 0;
     font-size: 600%;
     color: rgb(166, 22, 10);
+}
+
+#logout-button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 5px;
+    font-size: 120%;
+    font-weight: 700;
 }
