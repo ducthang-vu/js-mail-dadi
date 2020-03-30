@@ -52,6 +52,9 @@ button:focus {
 
 /* APP */
 .app {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
     height: 100vh;
 }
 
@@ -62,20 +65,13 @@ button:focus {
 } 
 
 
-/* MAIN */
-main {
-    /* background-image: url(../img/background.jpg); */
-    background-size: cover;
-}
-
-
-
 /* Main: HOUSE-AREA */
 .house-area {
     flex-basis: 40%;
 }
 
 .house-area .croupier {
+    margin: 15px;
     height: 250px;
 }
 
