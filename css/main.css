@@ -157,6 +157,8 @@ main {
     border: 5px solid #b0a06c;
     border-radius: 10px;
     transition: opacity 1s;
+    position: relative;
+    top: -160px;
 }
 
 #roll-button {
@@ -187,7 +189,7 @@ main {
 }
 
 .die-box i {
-    margin: 5px 0;
-    font-size: 500%;
+    margin: 25px 0;
+    font-size: 600%;
     color: rgb(166, 22, 10);
 }
