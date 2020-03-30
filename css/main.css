@@ -42,20 +42,30 @@ button:focus {
     text-align: center;
 }
 
+.white {
+    background: #fff;
+}
+
 .white-color {
     color: #fff;
 }
 
+/* APP */
+.app {
+    height: 100vh;
+}
 
 /* HEADER */
 .header h2 {
     padding: 10px;
+    border-radius: 0 0 10px 10px;
 } 
 
 
 /* MAIN */
 main {
-
+    /* background-image: url(../img/background.jpg); */
+    background-size: cover;
 }
 
 
@@ -63,9 +73,16 @@ main {
 /* Main: HOUSE-AREA */
 .house-area {
     flex-basis: 40%;
-    background-image: url(../img/croupier.jpg);
 }
 
+.house-area .croupier {
+    height: 250px;
+}
+
+.house-area .croupier img {
+    object-fit: cover;
+    height: 100%;
+}
 
 
 /* Main: PLAYER-AREA */
@@ -111,7 +128,7 @@ main {
     margin-top: 15px;
     padding: 10px;
     width: 400px;
-    border: 2px solid #b0a06c;
+    border: 5px solid #b0a06c;
     border-radius: 10px;
     transition: opacity 1s;
 }
