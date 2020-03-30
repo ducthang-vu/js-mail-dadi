@@ -36,6 +36,10 @@ button:focus {
     background: #b0a06c;
 }
 
+.red {
+    background: red;
+}
+
 .relative {
     position: relative;
 }
