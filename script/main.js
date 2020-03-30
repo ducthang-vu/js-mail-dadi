@@ -21,7 +21,7 @@ login_button.addEventListener('click',
             } 
 
         if (control) {
-            message.innerHTML = "Hi! We're happy to welcome back!\nRoll the die if you want to play."
+            message.innerHTML = "Hi! We're happy to welcome back!</br></br>Roll the die if you want to play."
             document.getElementById('login-wrapper').classList += ' hidden'
             document.getElementById('game-wrapper').classList.remove('hidden')
             document.getElementById('game-wrapper').classList += ' shoe'
@@ -56,13 +56,13 @@ roll_button.addEventListener('click',
         result_raw_msg = 'You scored: ' + (++score[0]) + '.</br>The house scored: ' + (++score[1]) + '.'
 
         if (score[0] > score [1]) {
-            message.innerHTML = result_raw_msg + '</br>You won!'
+            message.innerHTML = result_raw_msg + '</br></br>You won!'
         }
         else if (score[0] == score [1]) {
-            message.innerHTML = result_raw_msg + "</br>It's a tie!"
+            message.innerHTML = result_raw_msg + "</br></br>It's a tie!"
         }
         else {
-            message.innerHTML = result_raw_msg + '</br>The house wins.'
+            message.innerHTML = result_raw_msg + '</br></br>The house wins.'
         }       
     }
 )
