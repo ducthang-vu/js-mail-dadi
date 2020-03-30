@@ -1,5 +1,5 @@
 /*
-    A script for allowing access to registered user and for playing a dice game
+    A script allowing access to registered users and for playing a dice game
 */
 
 console.log('main.js is working')
@@ -36,7 +36,7 @@ login_button.addEventListener('click',
 
 
 /* 2- Dice game */
-// A game of dice beetween the user and the house, both rolling a dice (six faces), the highest score winning
+// A game of dice beetween the user and the House, both rolling a dice (six faces), the highest score winning
 
 var roll_button = document.getElementById('roll-button')
 var die = ['fas fa-dice-one', 'fas fa-dice-two', 'fas fa-dice-three', 'fas fa-dice-four', 'fas fa-dice-five', 'fas fa-dice-six']
