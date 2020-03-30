@@ -22,7 +22,7 @@ login_button.addEventListener('click',
             } 
 
         if (control) {
-            message.innerHTML = "Hi! We're happy to welcome back!</br></br>Roll the die if you want to play."
+            message.innerHTML = "Hi! We're happy to welcome you back!</br></br>Roll the die if you want to play."
             document.getElementById('login-wrapper').classList.remove('show')
             document.getElementById('login-wrapper').classList += ' hidden'
             document.getElementById('game-wrapper').classList.remove('hidden')
