@@ -23,6 +23,8 @@ login_button.addEventListener('click',
         if (control) {
             message.innerHTML = "Hi! We're happy to welcome back!\nRoll the die if you want to play."
             document.getElementById('login-wrapper').classList += ' hidden'
+            document.getElementById('game-wrapper').classList.remove('hidden')
+            document.getElementById('game-wrapper').classList += ' shoe'
         }
         else {
             message.innerHTML = "Sorry, you are not a registered user.</br></br>You cannot play with us."

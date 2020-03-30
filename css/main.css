@@ -38,6 +38,10 @@ button:focus {
     position: relative;
 }
 
+.show {
+    opacity: 1;
+}
+
 .text-center {
     text-align: center;
 }
@@ -124,7 +128,6 @@ main {
 
 .login-wrapper * {
     padding: 10px;
-    
 }
 
 .input-box {
