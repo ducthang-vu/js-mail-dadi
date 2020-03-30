@@ -35,7 +35,7 @@ login_button.addEventListener('click',
 // A game of dice beetween the user and the house, both rolling a dice (six faces), the highest score winning
 
 var roll_button = document.getElementById('roll-button')
-var die = ['<i class="fas fa-dice-one"></i>', '<i class="fas fa-dice-two"></i>', '<i class="fas fa-dice-three"></i>', '<i class="fas fa-dice-four"></i>', '<i class="fas fa-dice-five"></i>', '<i class="fas fa-dice-six"></i>']
+var die = ['fas fa-dice-one', 'fas fa-dice-two', 'fas fa-dice-three', 'fas fa-dice-four', 'fas fa-dice-five', 'fas fa-dice-six']
 
 
 roll_button.addEventListener('click',
@@ -47,6 +47,9 @@ roll_button.addEventListener('click',
         for (i = 0; i < 2; i++) {
             score.push(Math.floor(Math.random() * (6)))
         }
+
+        document.getElementById('player-die').className = die[score[0]]
+        document.getElementById('house-die').className = die[score[1]]
 
         result_raw_msg = 'You scored: ' + (++score[0]) + '.\nThe house scored: ' + (++score[1]) + '.'
 
