@@ -22,6 +22,7 @@ login_button.addEventListener('click',
 
         if (control) {
             message.innerHTML = "Hi! We're happy to welcome back!\nRoll the die if you want to play."
+            document.getElementById('player-area').classList += ' hidden'
         }
         else {
             message.innerHTML = "Sorry, you are not a registered user. You cannot play with us."
@@ -30,7 +31,7 @@ login_button.addEventListener('click',
 )
 
 
-/* 1- Dice game */
+/* 2- Dice game */
 // A game of dice beetween the user and the house, both rolling a dice (six faces), the highest score winning
 
 var roll_button = document.getElementById('roll-button')
@@ -47,7 +48,7 @@ roll_button.addEventListener('click',
             score.push(Math.floor(Math.random() * (6)))
         }
 
-        result_raw_msg = 'You scored: ' + (++score[0]) + '.\nThe house scored: ' + (++score[1]) +'.'
+        result_raw_msg = 'You scored: ' + (++score[0]) + '.\nThe house scored: ' + (++score[1]) + '.'
 
         if (score[0] > score [1]) {
             message.innerHTML = result_raw_msg + '</br>You won!'

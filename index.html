@@ -10,21 +10,46 @@
 </head>
 <body>
     <div class="app">
-        <section class="login-area">
-            <label for="username">Email</label>
-            <input id="username" type="email">
-            <button id="login-button">Login</button>
-        </section>
-        <section class="house-wrapper">
-            <div class="house-box">
-                <span id="house-message"></span>
-            </div>
-        </section>
-        <section class=game-area>
-            <div class="rolling-area">
-                <button id="roll-button">Roll dice</button>
-            </div>
-        </section>
+        <header class="header text-center pale-brown white-color">
+            <h1>Boolean Casino</h1>
+            <h2>The art of gaming, The game of art</h2>
+        </header>
+        <main class=flex-w>
+            <section class="house-area">
+                <div class="house-box">
+                    <span id="house-message"></span>
+                </div>
+            </section>
+
+            <section id="player-area" class="player-area central">
+                <div class="login-wrapper central">
+                    <h3 class="text-center central pale-brown white-color">Log into Boolean Casino</h3>
+                    <div class="input-box central">
+                        <label for="username">Email:</label>
+                        <input id="username" type="email" placeholder="Enter your email">
+                    </div>
+                    <button id="login-button" class="central white-color">Login</button>
+                </div> 
+    
+                <div class=game-wrapper>
+                    <div class="rolling-area">
+                        <button id="roll-button">Roll dice</button>
+                    </div>
+
+                    <div class="dice-area flex-w">
+                        <div class=die-box>
+                            <i id="player-die"class="fas fa-dice"></i>
+                        </div>
+
+                        <div class=die-box>
+                            <i id="house-die" class="fas fa-dice"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </main>
+        
     </div>
 
     <!-- SCRIPT -->
