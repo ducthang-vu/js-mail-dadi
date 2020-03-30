@@ -29,3 +29,9 @@ login_button.addEventListener('click',
         }
     }        
 )
+
+
+/* 1- Dice game */
+// A game of dice beetween the user and the house, both rolling a dice (six faces), the highest score winning
+
+var die = ['<i class="fas fa-dice-one"></i>', '<i class="fas fa-dice-two"></i>', '<i class="fas fa-dice-three"></i>', '<i class="fas fa-dice-four"></i>', '<i class="fas fa-dice-five"></i>', '<i class="fas fa-dice-six"></i>']
