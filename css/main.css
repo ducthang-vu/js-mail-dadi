@@ -41,7 +41,7 @@ button:focus {
 }
 
 .red {
-    background: red;
+    background: rgb(166, 22, 10);
 }
 
 .relative {
@@ -186,7 +186,7 @@ main {
 
 .dice-area {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     width: 100%;
     justify-content: space-around;
     border: 2px solid #b0a06c;
@@ -210,8 +210,7 @@ main {
     display: block;
     padding: 10px;
     margin-bottom: 10px;
-    width: 90%;
+    width: 40%;
     border-radius: 5px;
-    font-size: 120%;
     font-weight: 700;
 }
