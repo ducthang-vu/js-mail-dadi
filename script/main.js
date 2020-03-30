@@ -25,7 +25,7 @@ login_button.addEventListener('click',
             document.getElementById('login-wrapper').classList += ' hidden'
         }
         else {
-            message.innerHTML = "Sorry, you are not a registered user. You cannot play with us."
+            message.innerHTML = "Sorry, you are not a registered user.</br></br>You cannot play with us."
         }
     }        
 )
@@ -51,7 +51,7 @@ roll_button.addEventListener('click',
         document.getElementById('player-die').className = die[score[0]]
         document.getElementById('house-die').className = die[score[1]]
 
-        result_raw_msg = 'You scored: ' + (++score[0]) + '.\nThe house scored: ' + (++score[1]) + '.'
+        result_raw_msg = 'You scored: ' + (++score[0]) + '.</br>The house scored: ' + (++score[1]) + '.'
 
         if (score[0] > score [1]) {
             message.innerHTML = result_raw_msg + '</br>You won!'
