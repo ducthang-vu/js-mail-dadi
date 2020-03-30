@@ -73,6 +73,8 @@ roll_button.addEventListener('click',
 // 3- Logout button
 logout_button.addEventListener('click', 
     function() {
+        document.getElementById('username').value = ''
+
         document.getElementById('game-wrapper').classList.remove('show')
         document.getElementById('game-wrapper').classList += ' hidden'
         document.getElementById('login-wrapper').classList.remove('hidden')
